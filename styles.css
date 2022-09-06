@@ -1,0 +1,123 @@
+/* Geral */
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    color: #333;
+    /* para os  inputs nao passarem da largura maxima dos compones pais */
+    box-sizing: border-box;
+
+}
+
+body{
+    background-image: url("img/planoDeFundo.jpg");
+    background-position: center;
+    /* cover adapta a imagem a tela do usuario */
+    background-size: cover;
+}
+
+
+
+button {
+    background-color: #fdfdfd;
+    color: #102f5e;
+    border: 2px solid #102f5e;
+    padding: 0.3rem 0.6rem;
+    font-size: 1rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    margin-right: 0.3rem;
+    margin-top: .5rem;
+  }
+
+  button:hover {
+    background-color: #102f5e;
+    color: #fff;
+  }
+  
+  button:hover > i {
+    color: #fff;
+  }
+  
+  button i {
+    /* pointer-event none  nao se pode clicar no objeto */
+    pointer-events: none;
+    color: #102f5e;
+    font-weight: bold;
+  }
+
+  input {
+
+  padding: 0.25rem 0.5rem;
+}
+/* biblioteca Header */
+.biblioteca-container {
+    max-width: 1500px;
+    margin: 3rem auto 0;
+    background-color: #fdfdfd;
+    padding: 1.5rem;
+    border-radius: 15px;
+  }
+
+  .biblioteca-container header {
+    text-align: center;
+    padding: 0 1rem 1rem;
+    border-bottom: 1px solid #ccc;
+  }
+
+  
+
+.form-control{
+  display: flex;
+  margin-top: 1rem;
+  flex-direction: column;
+ 
+ 
+
+}
+
+.form-control input {
+  margin-right: 0.3rem;
+  margin-top: .5rem;
+  font-size: 2rem;
+}
+
+#cancel-edit-btn {
+  margin-top: 1rem;
+  color: #444;
+}
+
+
+  /* biblioteca list */
+  .biblioteca{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid rgb(73, 21, 216);
+    transition: .3s;
+  }
+
+  .biblioteca h3{
+    flex:1;
+    font-size: 1rem;
+  }
+
+  .biblioteca button{
+    
+    margin-right: 0.3rem;
+  }
+
+  h4{
+    
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+  }
+
+  
+
+  
