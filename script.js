@@ -53,7 +53,7 @@ const save = function(text){
 //enventos
 bibliotecaForm.addEventListener("submit", function(e){
     e.preventDefault();
-    console.log("valor do botão", e)
+    // console.log("valor do botão", e)
     const inputValue = bibliotecaInputTitulo.value ;
    
     
